@@ -1,8 +1,71 @@
 body {
-  font-family: Helvetica, serif;
+  font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  background-color: black;
   opacity: 0.9;
+  background-color: black;
+}
+
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  top: 0;
+}
+
+header nav {
+  padding-right: 10px;
+}
+
+header nav span {
+  padding: 20px 10px;
+}
+
+header nav span a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
+#logoimg {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.Missionbox {
+  background-image: url('file:///C:/Users/Drone/Desktop/Codeacademy/Projects/teacozy/resources/images/img-mission-background.jpg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  justify-content: center;
+  margin: auto;
+}
+
+.centermessage {
+  width: 1200px;
+  background-color: black;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.centermessage h2 {
+  margin: 5px;
+}
+
+.centermessage h4 {
+  margin-bottom: 10px;
 }
