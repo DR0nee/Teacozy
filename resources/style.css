@@ -6,6 +6,7 @@ body {
   background-color: black;
 }
 
+/** Header Css **/
 
 header {
   height: 69px;
@@ -39,8 +40,10 @@ header nav span a {
   padding-left: 10px;
 }
 
+ /** Missionbox Css **/
+
 .Missionbox {
-  background-image: url('file:///C:/Users/Drone/Desktop/Codeacademy/Projects/teacozy/resources/images/img-mission-background.jpg') ;
+  background-image: url(../resources/images/img-mission-background.jpg) ;
   background-position: center;
   background-repeat: no-repeat;
   height: 700px;
@@ -69,3 +72,39 @@ header nav span a {
 .centermessage h4 {
   margin-bottom: 10px;
 }
+
+/** Teabox Css **/
+
+#headline {
+  text-align: center;
+}
+
+.Teabox {
+  width: 1000px;
+  margin: auto;
+}
+
+.teaselection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.teaimg {
+  text-align: center;
+}
+
+.teaimg img {
+  width: 300px;
+  height: 200px;
+  padding: 15px;
+}
+
+.teaselection h4 {
+  margin-top: 10px;
+}
+
+/** Location Box css **/
